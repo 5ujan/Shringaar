@@ -13,7 +13,12 @@ This project combines **AR Foundation** with **ARCore** in Unity to create augme
    Once you've downloaded and extracted the project, open your terminal and change to the `@decorators_server` directory:
    ```bash
    cd @decorators_server
-   
+   ```
+3. You'll need the following binary
+   ```GoogleNews-vectors-negative300.bin```
+   Download and keep it in the server root
+4. Export the necessary environment variables
+  ```export API_KEY=<your_google_api_key>```
 
 ---
 
